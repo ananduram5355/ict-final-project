@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BlackArt Media</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">  -->
+    <link rel="stylesheet" href="booking.css">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <!-- <link rel="stylesheet" href="bookingsty.css"> -->
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<link
+     rel="stylesheet"
+     href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+     integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+     crossorigin="anonymous"
+   />
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo">BLACKART</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="home-page">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links" id="about-page">About</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#services" class="navbar__links" id="services-page"
+              >Services</a
+            >
+          </li>
+         
+        </ul>
+      </div>
+    </nav>
+
+    <!-- form section  -->
+    <div class="container"><!--container-->
+
+      <form class="form-group" action="payment.html"><!--form-->
+          <!-- <h1 class="text-center">Airline Booking Form</h1> -->
+           <br>
+           <br>
+          <div id="form"><!--form-->
+              <h3 class="text-white">Booking Details</h3>
+
+          <div id="input"><!--input-->
+              <input type="text" id="input-group" placeholder="Bride Name" required>
+              <input type="text" id="input-group" placeholder="Groom Name" required>
+              <input type="date" id="input-group" placeholder="Wedding Date" required>
+              <input type="time" id="input-group" placeholder="Time" required>
+              <select  id="input-group" style="background: black;">
+                  <option value="">Preffered Type</option>
+                  <option value="">Wedding Photography</option>
+                  <option value="">Wedding Videography</option>
+                  <option value="">Both</option>
+                  <option value="">Motorgraphy</option>
+                  <option value="">Other</option>
+              </select>
+              <select  id="input-group" style="background: black;">
+                  <option value="">Preffered Style</option>
+                  <option value="">Candid</option>
+                  <option value="">Normal</option>
+                  <option value="">Both</option>
+                  <option value="">Special Edition</option>
+                  <option value="">Others</option>
+              </select>
+              </div><!--input-->
+
+              <div id="input2"><!--input2-->
+                  <input type="number" id="input-group" placeholder="No.of Photographers" required>
+                  <input type="number" id="input-group" placeholder="No.of Videographers" required>
+                  <!-- <input type="number" id="input-group" placeholder="infant(under 2years)" required> -->
+              </div><!--input2-->
+
+              <div id="input3"><!--input3-->
+                  <span id="input-group" class="text-primary">Type Of wedding</span> 
+                  <input type="radio" id="input-group" name="r" required>
+                  <label class="text-white" for="input-group">Hindu</label>
+                  <input type="radio" id="input-group" name="r" required>
+                  <label class="text-white" for="input-group">Muslim</label>
+                  <input type="radio" id="input-group" name="r" required>
+                  <label class="text-white" for="input-group">Christian</label>
+              </div><!--input3-->
+
+              <div id="input4"><!--input4-->
+                  <!-- <input type="text" id="input-group" placeholder="Return Date"> -->
+                  <input type="text" id="input-group" placeholder="Return time">
+                  <input type="text" id="input-group1" placeholder="Any Message">
+              </div><!--input4-->
+
+              <div id="input5"><!--input5-->
+                  <h3 class="text-white">Personal Details</h3>
+              </div><!--input5-->
+
+              <div id="input6"><!--input6-->
+                  <input type="text" id="input-group" placeholder="Full Name" required>
+                  <input type="number" id="input-group" placeholder="Phone Number" required>
+                  <input type="email" id="input-group1" placeholder="Email" required>
+              </div><!--input6-->
+              <button type="submit" class="btn btn-warning text-white">Submit Form</button>
+              <button type="reset" class="btn btn-primary">Clear Form</button>
+          </div><!--form-->
+
+      </form><!--form-->
+
+  </div><!--container-->
+       
+  </body>
+</html>
